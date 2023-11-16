@@ -66,9 +66,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Snippets Wiki',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Snippets Wiki Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -76,11 +76,11 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Home',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/rakshixh/Snippets-Wiki/',
             label: 'GitHub',
             position: 'right',
           },
