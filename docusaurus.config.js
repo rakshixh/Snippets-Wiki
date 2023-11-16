@@ -75,10 +75,10 @@ const config = {
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
-            position: 'left',
+            position: 'right',
             label: 'Home',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'right'},
           {
             href: 'https://github.com/rakshixh/Snippets-Wiki/',
             label: 'GitHub',
