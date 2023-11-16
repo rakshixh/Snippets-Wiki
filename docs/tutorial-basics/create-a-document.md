@@ -44,8 +44,8 @@ It is also possible to create your sidebar explicitly in `sidebars.js`:
 ```js title="sidebars.js"
 export default {
   tutorialSidebar: [
-    'intro',
     // highlight-next-line
+    'intro',
     'hello',
     {
       type: 'category',
