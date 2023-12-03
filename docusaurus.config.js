@@ -13,18 +13,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://snippets-wiki-development.vercel.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -69,7 +61,7 @@ const config = {
         title: 'Snippets Wiki',
         logo: {
           alt: 'Snippets Wiki Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
@@ -80,7 +72,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'right'},
           {
-            href: 'https://github.com/rakshixh/Snippets-Wiki/',
+            to: 'https://github.com/rakshixh/Snippets-Wiki/',
             label: 'GitHub',
             position: 'right',
           },
